@@ -1,0 +1,17 @@
+{
+  "name": "x2050-backend",
+  "version": "1.0.0",
+  "description": "X2050 community backend on Cloudflare Workers + Neon Postgres",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.0",
+    "hono": "^4.6.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.78.0"
+  }
+}
